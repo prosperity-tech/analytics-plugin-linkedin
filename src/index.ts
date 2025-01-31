@@ -21,6 +21,7 @@ declare global {
 
 export interface LinkedInPluginConfig {
   partnerId: string;
+  enabled?: boolean;
 }
 
 interface Params {
